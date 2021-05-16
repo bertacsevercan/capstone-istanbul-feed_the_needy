@@ -4,7 +4,7 @@ import Blog from "../../components/Blog";
 import JoinUs from "../../components/JoinUs";
 import OurGoals from "../../components/OurGoals";
 import OurSponsors from "../../components/OurSponsors";
-import Team from "../../components/Team";
+// import Team from "../../components/Team";
 import WorkingTogether from "../../components/WorkingTogether";
 import YouCanHelp from "../../components/YouCanHelp";
 import Newsletter from "../../components/Newsletter";
@@ -19,7 +19,7 @@ const HomePage = () => {
       <WorkingTogether />
       <OurSponsors />
       <Blog />
-      <Team />
+      {/* <Team /> */}
       <JoinUs />
     </div>
   );

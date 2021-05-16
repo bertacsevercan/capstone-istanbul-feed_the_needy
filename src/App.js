@@ -13,7 +13,7 @@ import BlogCards from "./containers/BlogCards";
 import BlogCard from "./containers/BlogCard";
 import HomePage from "./containers/HomePage";
 import Authentication from "./containers/Authentication";
-import Forgot from "./components/Forgot/index.jsx";
+import Forgot from "./components/Forgot";
 import Cart from "./containers/Cart";
 import CouponsPage from "./containers/CouponsPage";
 import AdminDashboard from "./containers/AdminDashboard";

@@ -20,6 +20,7 @@ import AdminDashboard from "./containers/AdminDashboard";
 
 const { Content } = Layout;
 const stripePromise = loadStripe(
+  // eslint-disable-next-line max-len
   "pk_test_51HpJ2cKL8bYnhv9TIu5p2vCoMtZig2A4Ctw41t2zkucjoYxPvvxt07hgREAExbDSkfIOsz99pPqhkUJTnU80fQJV005qt0NU5h"
 );
 
@@ -35,6 +36,7 @@ function App() {
                 <Route
                   exact
                   path="/blogs/:id"
+                  // eslint-disable-next-line react/jsx-props-no-spreading
                   render={(props) => <BlogCard {...props} />}
                 />
                 <Route path="/blog" component={BlogCards} />
